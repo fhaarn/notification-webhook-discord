@@ -17,6 +17,7 @@ def send_message(content):
     payload = {
         "username": "jokowski",
         "avatar_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_kM.wM1lYnc/v0/2000x1429.webp",
+        "content": "@everyone",
         "embeds": [
             {
                 "title": f"🔔 {EVENT_NAME}",
